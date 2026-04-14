@@ -55,6 +55,7 @@ done
    2. 修改脚本顶部的 TIKA_JAR、SRC_DIR 和 DEST_DIR 路径。
    3. 可以先在 doc 文件夹里放 3-5 个文件做一个小测试。
    4. 预期生成的名称： 关于2026年市场调研报告_20260409.doc
+   5. ALLOWED_EXTENSIONS 集合：在脚本顶部定义了允许的后缀。
 ```
 auto_rename_TIKA.py
 ```
