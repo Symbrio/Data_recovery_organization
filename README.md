@@ -4,12 +4,12 @@ HDD数据恢复 --> 粗粒度去重去损 --> 细粒度相似识别 --> 内容�
 
 ***
 
-###Skeleton
+#Skeleton
 ```
-├── docs/        # 原理说明书（如：PDF 结构解析、扩容盘原理）
-├── scripts/     # 核心工具脚本（去重、识别逻辑）
-├── samples/     # 实验样本（注意：严禁上传隐私数据） （待定）
-└── configs/     # 环境配置文件 （待定）
+├── hdd_recovery/                      # 分区、格式、数据恢复
+├── coarse_grained_deduplication/      # 非常用格式筛选，相同文件去重
+├── fine_grained_similarity/           # 筛选相似文件（如：缩略图，重复储存文件）
+└── docs_文档文件批处理/                  # 文档文件内容速览及重命名
 ```
 
 ***
